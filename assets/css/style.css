@@ -1,0 +1,61 @@
+/*Universal Selcetor section*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+/* staring with the display bar up top, we move down the html skeleton to style the css selectors*/
+ /*This is where we style our display bar that is at the top of the page*/
+
+ .display-bar {
+    /*made padding to 20px so display bar isnt squished together*/
+    padding: 20px;
+    background-color: rgb(31, 163, 224);
+    /*Timer and view score are both centered*/
+    text-align: center;
+
+ }
+ /*We will style the  display-bar p tag here*/
+ .display-bar p {
+    border-width: 3px;
+    border-style:solid;
+    border-radius: 20px;
+    border-color:rgb(0, 255, 217);
+    font-size: 25px;
+    color: black;
+ }
+ /* Here we can style our one button in display bar*/
+/*ASK how you can move the button up a little so it isnt sitting on the timer*/
+/*ADDED marin to bottem of button to adjust up*/
+
+button{
+ background-color: rgb(255, 0, 183);
+ padding-bottom: 1px;
+ border-radius: 7px;
+ border-style: outset;
+ margin-bottom: 10px;
+ }
+
+ /*Body of the doctument along with deifferent classes are styled here*/
+
+body{
+
+    background-color: rgb(243, 170, 243);
+}
+/*This is where we style our quiz container or box, margins modified to adjust to center of the body*/
+
+.quiz-container {
+   
+   margin-top: 8%;
+   margin-left: 25%;
+   height: 50%;
+   width: 50%;
+   background-color: black;
+   border: 10px solid blue
+   
+}
+
+
+/*Header section*/
