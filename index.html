@@ -10,7 +10,8 @@
     <body>
         <!---This container will hold "View High Scores" button-->
         <div class="display-bar">
-        <h1>Let the Games Begin</h1>
+        <section class="vhs"><a href=#highscores-section></a><button>View High Scores</button>
+        </section>
        
         </div>
 
@@ -25,11 +26,11 @@
     <header class="quiz-intro">
         <h1>Welcome to a quick JavaScript Quiz</h1>
         <p>To get started, click "start" button</p>
+        <button id="start">Start</button>
     </header>
-        <!---Giving "Start-Game" button it's own container and added ir and href.-->
-        <div id="start-button">
-        <button>Start</button>
-    </div>
+    
+        
+        
     
 <!---This will be where main/quiz content will be located-->
     <main>
@@ -52,21 +53,42 @@
 
     </section>
     
+    <!---what player will see once done with the quiz-->
 
     <section class ="finished-quiz-screen">
-
+       <h2>Finished Quiz!!</h2>
+       <p>Score: 00</p>
+       <!--Container where player will enter name and submit-->
+       <div>
+       <lable for="">Name</lable>
+       <input type="text">
+       <button>Sumbit</button>
+       </div>
     </section>
 
 
     </main>
 
 </div>
-<!--how can i have the button on its own without a div-->
-<section class="vhs"><button>View High Scores</button>
+
+
+
+<section class="highscores-section">
+    <h2>Highscores! :</h2>
+    <ol>
+      <li>name/initials</li>
+      <li>name/initials</li>
+      <li>name/initials</li>
+      <li>name/initials</li>
+      <li>name/initials</li>
+
+    </ol>
 </section>
+<!--this section will give the player the option to stat game again or not-->
+<div class= "restart-game" div>
     </body>
     
-<foorter>
+<footer>
 
-</foorter>
+</footer>
 </html>

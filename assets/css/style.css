@@ -78,21 +78,11 @@ body{
     margin-top: 5px;
     color:rgb(27, 230, 88);
 }
-
-/*Start Button*/
-#start-button{
-    padding: 0;
-    border: none;
-    background: none;
+ #start{
+    background-color: red;
     width: 50%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 25%;
-    font-size: 50px;
-    text-align: center;
-    color:rgb(193, 230, 27);
-    background-color:rgb(154, 10, 13);
-}
+ }
+
  /*this Section will hold the main content of the quiz*/
 main {
     display: block;
@@ -107,17 +97,41 @@ main {
     
     .questions-screen ul {
         text-align: center;
-        color:aliceblue;
-        list-style-type: none;;
+        color:rgb(16, 103, 180);
+        list-style-type: none;
         margin-bottom: 30%;
         
 
-}
+        }
 
+        .questions-screen h2 {
+         color: blue;
+         text-align: center;
+         margin-bottom: 25px;
+         
+        }
+       
+        .questions-screen button{
+            width:75%;
+            background-color:blueviolet;
+            margin-bottom: 10px;
+        }
 
+        .finished-quiz-screen{
+            display:none;
 
+        }
 
-button{
-    width: 90%;
+        .vhs{
+            margin-left: 20px ;
+            margin-right: 20px;
+        }
+ .vhs button{
+
+    width: 100%;
+    background-color: pink;
 }
  
+.highscores-section{
+    max-height: 50px;
+}
