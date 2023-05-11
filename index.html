@@ -8,28 +8,65 @@
        </head>
 
     <body>
+        <!---This container will hold "View High Scores" button-->
+        <div class="display-bar">
+        <h1>Let the Games Begin</h1>
+       
+        </div>
 
-<!---Top display bar that will hold view scores button and timer--->
+        <!---placed <p> below display bar and above quiz-->
+        <p id="par1">Time Left: 00:15 sec</p>
 
-<div class="display-bar">
-<button>View Top Scores</button>
-<p>Timer: 00:00</p>
-</div>
 
 <!--Div that will contain quiz header and main content--->
 <div class="quiz-container">
-    <!---Header for quiz --->
-    <header class="initial-pop-up">
 
+    <!---Header for quiz, intro, assigning class for h1 and --->
+    <header class="quiz-intro">
+        <h1>Welcome to a quick JavaScript Quiz</h1>
+        <p>To get started, click "start" button</p>
     </header>
-<!---This will be where main content is located-->
+        <!---Giving "Start-Game" button it's own container and added ir and href.-->
+        <div id="start-button">
+        <button>Start</button>
+    </div>
+    
+<!---This will be where main/quiz content will be located-->
     <main>
+       
+        <!---Questions promts whill begin-->
+        <section class="questions-screen">
+             <!---Carouseling Questions will be located here.-->
+        <h2>Question</h2>
+        
+        <!---The ul of choices, "choice-buttons id created for href"-->
+         <ul>
+
+            <li><button>Possible Choice</button></li>
+            <li><button>Possible Choice</button></li>
+            <li><button>Possible Choice</button></li>
+            <li><button>Possible Choice</button></li>
+            <li><button>Possible Choice</button></li>
+
+        </ul>
+
+    </section>
+    
+
+    <section class ="finished-quiz-screen">
+
+    </section>
+
 
     </main>
 
 </div>
-
-
+<!--how can i have the button on its own without a div-->
+<section class="vhs"><button>View High Scores</button>
+</section>
     </body>
+    
+<foorter>
 
+</foorter>
 </html>
