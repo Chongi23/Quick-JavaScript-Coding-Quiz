@@ -27,6 +27,7 @@
         <h1>Welcome to a quick JavaScript Quiz</h1>
         <p>To get started, click "start" button</p>
         <button id="start">Start</button>
+        
     </header>
     
         
@@ -38,18 +39,22 @@
         <!---Questions promts whill begin-->
         <section class="questions-screen">
              <!---Carouseling Questions will be located here.-->
-        <h2>Question</h2>
+        <h2 id="question">Question</h2>
         
         <!---The ul of choices, "choice-buttons id created for href"-->
          <ul>
 
-            <li><button>Possible Choice</button></li>
-            <li><button>Possible Choice</button></li>
-            <li><button>Possible Choice</button></li>
-            <li><button>Possible Choice</button></li>
-            <li><button>Possible Choice</button></li>
+            <li><button id="A">Hello</button></li>
+            <li><button id="B">Player</button></li>
+            <li><button id="C">One</button></li>
+            <li><button id="D">Boop</button></li>
+            
 
         </ul>
+    </section>
+        <section class= "next-btn">
+        <button id="next">-Next</button>
+    
 
     </section>
     
@@ -85,7 +90,10 @@
     </ol>
 </section>
 <!--this section will give the player the option to stat game again or not-->
-<div class= "restart-game" div>
+<div class="restart-section">
+     <button id =Restart class="restart-button">restart-game</button>
+</div>
+     <script src="./assets/js/script.js"></script>
     </body>
     
 <footer>
