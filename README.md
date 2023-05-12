@@ -23,3 +23,7 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 ```
+
+
+https://github.com/Chongi23/Quick-JavaScript-Coding-Quiz/assets/129767491/613c66b3-a0fa-4b66-b871-06347fa2ed49
+
